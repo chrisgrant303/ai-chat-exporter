@@ -1,7 +1,7 @@
-# Privacy Policy: AI Chat Exporter
+# Privacy Policy: Full Chat Exporter (formerly AI Chat Exporter)
 Effective date: October 13, 2026
 
-AI Chat Exporter ("the Extension") is published by **CCE Partners LLC** ("we", "us"). Address: 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: chris@hichrisgrant.com.
+Full Chat Exporter (formerly AI Chat Exporter) ("the Extension") is published by **CCE Partners LLC** ("we", "us"). Address: 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: chris@hichrisgrant.com.
 
 ## Summary
 The Extension processes your AI chat conversations **only inside your own browser** to create files you download. We do not collect, receive, store, sell or share your conversations or any other personal data.
