@@ -4,7 +4,7 @@
 <style>body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1e293b}a{color:#2563eb}</style>
 </head><body>
 <h1>Privacy Policy: Full Chat Exporter (formerly AI Chat Exporter)</h1>
-<p>Effective date: October 13, 2026</p>
+<p>Effective date: October 20, 2026</p>
 <p>Full Chat Exporter (formerly AI Chat Exporter) ("the Extension") is published by <strong>CCE Partners LLC</strong> ("we", "us"). Address: 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: chris@hichrisgrant.com.</p>
 <h2>Summary</h2>
 <p>The Extension processes your AI chat conversations <strong>only inside your own browser</strong> to create files you download. We do not collect, receive, store, sell or share your conversations or any other personal data.</p>
@@ -13,7 +13,7 @@
 <li><strong>Page content on supported sites only</strong> (chatgpt.com, chat.openai.com, claude.ai, gemini.google.com, grok.com, perplexity.ai). It reads the conversation <strong>only when you click Export</strong>, converts it to a file and hands it to your browser's download. Nothing is transmitted to us or any third party.</li>
 <li><strong>ChatGPT export (same-site request):</strong> on chatgpt.com / chat.openai.com, when you click Export the Extension asks ChatGPT's own website, using your existing logged-in session, for the conversation you are viewing (the same request the ChatGPT page itself makes). This request goes only to ChatGPT (OpenAI), never to us or anyone else. The temporary session token it uses is held in memory for that one export and is never stored, logged or transmitted elsewhere. If this request fails, the Extension reads the conversation from the page instead.</li>
 <li><strong><code>activeTab</code> and <code>scripting</code> permissions:</strong> when you open the Extension's popup on a supported AI chat tab, these let it load its own packaged exporter code into that one tab (so export works without reloading the page). They give no access to other tabs or sites.</li>
-<li><strong>Local storage (<code>storage</code> permission):</strong> used only to remember your Pro license status.</li>
+<li><strong>Browser storage (<code>storage</code> permission):</strong> no chat content is stored. The ExtensionPay library keeps its data in Chrome's <strong>sync storage</strong> (<code>chrome.storage.sync</code>), which Chrome copies to your other devices where you are signed in to Chrome with sync turned on. See Payments below for exactly what it stores.</li>
 </ul>
 <h2>What we do not do</h2>
 <ul>
@@ -22,7 +22,7 @@
 <li>We do not sell or transfer user data to third parties, and do not use it for creditworthiness or lending.</li>
 </ul>
 <h2>Payments (Pro only)</h2>
-<p>If you buy Pro, payment is handled by <strong>ExtensionPay</strong> (extensionpay.com) and <strong>Stripe</strong>. They collect your email and payment details under their own privacy policies (https://extensionpay.com/privacy, https://stripe.com/privacy). The Extension includes the official ExtensionPay library (ExtPay.js), which contacts extensionpay.com to check whether you have paid and to open the ExtensionPay payment and login pages when you click "Unlock Pro". ExtensionPay may store an anonymous identifier for your installation and your paid status in the Extension's local storage, and runs a small script on extensionpay.com pages to confirm a purchase. No chat content is ever sent to ExtensionPay. We receive purchase records (such as email and amount) from Stripe for accounting and refunds, and keep them only as long as legally required.</p>
+<p>If you buy Pro, payment is handled by <strong>ExtensionPay</strong> (extensionpay.com) and <strong>Stripe</strong>. They collect your email and payment details under their own privacy policies (Stripe: https://stripe.com/privacy; ExtensionPay: https://extensionpay.com). The Extension includes the official ExtensionPay library (ExtPay.js), which contacts extensionpay.com to check whether you have paid and to open the ExtensionPay payment and login pages when you click "Unlock Pro". The ExtensionPay library stores its data in Chrome's sync storage (<code>chrome.storage.sync</code>), which is synced through your Google account to your other signed-in Chrome devices when Chrome sync is on: the date the Extension was installed (<code>extensionpay_installed_at</code>, written when the Extension first runs, for every user); after you click "Unlock Pro", an installation key for your copy of the Extension (<code>extensionpay_api_key</code>); and, after each license check, your purchase status from ExtensionPay (<code>extensionpay_user</code>), which includes whether and when you paid and the email address you used at checkout. It uses local storage only if sync storage is unavailable. ExtensionPay also runs a small script on extensionpay.com pages to confirm a purchase. No chat content is ever sent to ExtensionPay. We receive purchase records (such as email and amount) from Stripe for accounting and refunds, and keep them only as long as legally required.</p>
 <h2>Children</h2>
 <p>The Extension is not directed to children under 13.</p>
 <h2>Changes</h2>
