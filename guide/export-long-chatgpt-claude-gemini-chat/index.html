@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How to export a long ChatGPT, Claude or Gemini chat without it getting cut off</title>
+<meta name="description" content="Why long AI chats get cut off when you copy, print or screenshot them, the official export options, and how to save the whole conversation as one Markdown file.">
+<link rel="canonical" href="https://chrisgrant303.github.io/ai-chat-exporter/guide/export-long-chatgpt-claude-gemini-chat/">
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:0 20px;line-height:1.6;color:#1e293b}a{color:#2563eb}code{font-size:.92em}.wrap{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.92em}th,td{border:1px solid #cbd5e1;padding:6px 8px;text-align:left;vertical-align:top}th{background:#f1f5f9}caption{text-align:left;font-weight:600;padding:4px 0}small{color:#475569}</style>
+</head><body>
+<h1>How to export a long ChatGPT, Claude or Gemini chat without it getting cut off</h1>
+<p><small>Facts checked: October 23, 2026. By CCE Partners LLC, the maker of Unabridged.</small></p>
+<p><strong>Short answer:</strong> copy-paste, print-to-PDF and full-page screenshots only capture what the page has rendered, so very long chats come out with missing parts. To keep the whole thing, either request your account's data export (ChatGPT and Claude both offer one, by email) or use a tool that reads the complete conversation and saves it as a file.</p>
+
+<h2>Why long chats get cut off</h2>
+<p>To stay fast, chat sites do not keep a very long conversation on the page all at once. Older messages are loaded as you scroll and dropped again when they move out of view. In an October 2026 thread on the OpenAI Developer Community, a user reported that full-page captures of long ChatGPT chats stopped after a second or two and left large blank areas; a reply explained that long chats in the web app are virtualized, so only the parts near your viewport stay in the page (<a href="https://community.openai.com/t/1403798">OpenAI Community thread</a>, posted October 6, 2026).</p>
+<p>Anything that works from the visible page inherits that limit: selecting all and copying, the browser's print-to-PDF, full-page screenshot tools, and exporters that read only what is rendered.</p>
+
+<h2>Options that need no extension</h2>
+<h3>1. Copy and paste in sections</h3>
+<p>Scroll to one part of the chat, select it, copy it into a document, and repeat. It works anywhere, but on a long chat it is slow, it is easy to miss or repeat a section, and code blocks, tables and math formatting often do not survive the paste.</p>
+<h3>2. Print to PDF or a full-page screenshot</h3>
+<p>Fine for a short chat. On a long one, expect the problem described above: only the rendered part is captured.</p>
+<h3>3. ChatGPT data export</h3>
+<p>In ChatGPT on the web: profile menu → <strong>Settings</strong> → <strong>Data controls</strong> → <strong>Export data</strong> → <strong>Export</strong>, then <strong>Confirm export</strong>. OpenAI's help page says exports can take up to 7 days to arrive, the download link expires 24 hours after you receive it, and the ZIP file includes your chat history and other account data. Self-service export is not available in ChatGPT Business, Enterprise or ChatGPT for Healthcare workspaces (<a href="https://help.openai.com/en/articles/7260999-how-do-i-export-my-chatgpt-history-and-data">OpenAI Help Center</a>, checked October 23, 2026).</p>
+<p>This is the complete record of your account, not a single chat, so you will need to find the conversation you want inside the export.</p>
+<h3>4. Claude data export</h3>
+<p>In Claude on the web or Claude Desktop: <strong>Settings</strong> → <strong>Privacy</strong> → <strong>Export data</strong>. You get a download link by email; it expires 24 hours after delivery, and exports cannot be started from the iOS or Android apps. On Team and Enterprise plans an organization owner has to allow it (<a href="https://support.claude.com/en/articles/9450526-export-your-claude-data">Claude Help Center</a>, checked October 23, 2026). Like ChatGPT's, it covers your account's chat history rather than one conversation.</p>
+<h3>5. Gemini's Share &amp; export menu</h3>
+<p>Below a Gemini response, <strong>Share &amp; export</strong> offers <strong>Export to Docs</strong> and <strong>Draft in Gmail</strong>, and tables can go to Google Sheets (<a href="https://support.google.com/gemini/answer/14184041?hl=en">Gemini Apps Help</a>, checked October 23, 2026). The help page describes these per response, so saving a long conversation this way means exporting it piece by piece.</p>
+
+<h2>Using Unabridged to save the whole chat as Markdown</h2>
+<p>Unabridged is a Chrome extension made by CCE Partners LLC (the publisher of this page). It exports the whole conversation, from the first message to the last, as one Markdown file. It works on ChatGPT, Claude, Gemini, Grok and Perplexity.</p>
+<ul>
+<li><strong>How it avoids the cut-off:</strong> on ChatGPT it asks the site itself for the complete conversation using your existing login. On the other sites it scrolls through the thread and collects every message, including the ones the page unloads to save memory.</li>
+<li><strong>What comes through:</strong> code blocks keep their language labels, and tables, lists, links and LaTeX math come through intact.</li>
+<li><strong>Free:</strong> Markdown export of the full thread you are viewing, saved as a normal download. It never asks for payment and needs no account with us.</li>
+<li><strong>Pro, optional:</strong> a $4.99 one-time purchase, not a subscription. It adds JSON, PDF (through your browser's print dialog) and bulk export of every open AI chat tab.</li>
+<li><strong>Privacy:</strong> it runs in your browser, and your chats are never sent to us. Details are in the <a href="https://chrisgrant303.github.io/ai-chat-exporter/">privacy policy</a>.</li>
+</ul>
+<h3>Steps</h3>
+<ol>
+<li>Install Unabridged from the <a href="https://chromewebstore.google.com/detail/bikcjbaffadliihjcbodbkddhlnpahhf">Chrome Web Store</a>.</li>
+<li>Open the chat you want to keep. A tab that was already open works too, without reloading.</li>
+<li>Click the Unabridged icon in the toolbar (or in Chrome's Extensions menu) and export. The Markdown file arrives as a normal download.</li>
+</ol>
+
+<h2>Tips</h2>
+<ul>
+<li><strong>Check the ends.</strong> Whatever method you use, open the file and confirm that the first and last messages are there before you delete or archive the original chat.</li>
+<li><strong>Hit the conversation length limit?</strong> A Markdown copy of the old chat is an easy way to carry its context into a new one. Very long files may be more than a new chat can take in at once, so paste only the parts you need, or a summary.</li>
+<li><strong>Keep it searchable.</strong> Markdown opens in any text editor and in note apps such as Obsidian.</li>
+</ul>
+<p>Comparing tools? See the dated <a href="https://chrisgrant303.github.io/ai-chat-exporter/compare/">comparison of chat export options</a>.</p>
+
+<hr>
+<p><small>Not affiliated with OpenAI, Anthropic, Google, xAI or Perplexity. Unabridged is an independent tool made by CCE Partners LLC. All product and company names on this page are trademarks of their respective owners. They are used only to identify the sites and products described.</small></p>
+<p><small><a href="https://chrisgrant303.github.io/ai-chat-exporter/compare/">Comparison of chat export options</a> · <a href="https://chrisgrant303.github.io/ai-chat-exporter/">Unabridged privacy policy</a> · Contact: chris@hichrisgrant.com</small></p>
+</body></html>
