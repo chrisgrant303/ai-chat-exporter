@@ -2,9 +2,9 @@
 
 Effective date: October 22, 2026
 
-Last updated: October 23, 2026
+Last updated: October 29, 2026
 
-Unabridged (formerly AI Chat Exporter) ("the Extension") is published by **CCE Partners LLC** ("we", "us"), 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: chris@hichrisgrant.com. This policy applies to the Google Chrome version of the Extension, distributed through the Chrome Web Store (item bikcjbaffadliihjcbodbkddhlnpahhf). The Firefox and Microsoft Edge versions (version 0.2.8) work differently in two respects, described in "Firefox and Microsoft Edge versions" below.
+Unabridged (formerly AI Chat Exporter) ("the Extension") is published by **CCE Partners LLC** ("we", "us"), 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: support@hichrisgrant.com. This policy applies to the Google Chrome version of the Extension, distributed through the Chrome Web Store (item bikcjbaffadliihjcbodbkddhlnpahhf). The Firefox and Microsoft Edge versions (version 0.2.8) work differently in two respects, described in "Firefox and Microsoft Edge versions" below.
 
 ## Summary
 - The Extension turns the AI chat you are viewing into a file that your browser downloads. Your conversations are processed **only inside your browser**. They are never sent to us, to our payment providers or to anyone else.
@@ -65,4 +65,4 @@ Unabridged is an independent tool made by CCE Partners LLC. It is not affiliated
 We will post updates on this page and change the effective date.
 
 ## Contact
-CCE Partners LLC, 2501 Chatham Rd #4369, Springfield, IL 62704, USA: chris@hichrisgrant.com
+CCE Partners LLC, 2501 Chatham Rd #4369, Springfield, IL 62704, USA: support@hichrisgrant.com
