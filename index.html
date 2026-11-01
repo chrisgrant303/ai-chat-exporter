@@ -5,23 +5,23 @@
 </head><body>
 <h1>Privacy Policy: Unabridged (formerly AI Chat Exporter)</h1>
 <p>Effective date: October 22, 2026</p>
-<p>Last updated: October 30, 2026</p>
-<p>Unabridged (formerly AI Chat Exporter) ("the Extension") is published by <strong>CCE Partners LLC</strong> ("we", "us"), 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: support@hichrisgrant.com. This policy applies to version 0.2.13.1 of the Extension. It covers the Google Chrome version, distributed through the Chrome Web Store (item bikcjbaffadliihjcbodbkddhlnpahhf), the Microsoft Edge version and the Firefox version. The Edge version works like the Chrome version, with one exception. "What is stored in your browser" describes it. The Firefox version works differently in two respects. The "Firefox version" section below describes them.</p>
+<p>Last updated: November 1, 2026</p>
+<p>Unabridged (formerly AI Chat Exporter) ("the Extension") is published by <strong>CCE Partners LLC</strong> ("we", "us"), 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: support@hichrisgrant.com. This policy applies to versions 0.2.13.1 and 0.2.14 of the Extension. It covers the Google Chrome version, distributed through the Chrome Web Store (item bikcjbaffadliihjcbodbkddhlnpahhf), the Microsoft Edge version and the Firefox version. The Edge version works like the Chrome version, with one exception. "What is stored in your browser" describes it. The Firefox version works differently in two respects. The "Firefox version" section below describes them.</p>
 <h2>Summary</h2>
 <ul>
 <li>The Extension turns the AI chat you are viewing into a file that your browser downloads. Your conversations are processed <strong>only inside your browser</strong>. They are never sent to us, to our payment providers or to anyone else.</li>
-<li><strong>Free exports contact no server of ours or of our payment provider.</strong> The only request a free export makes is on ChatGPT, where the Extension asks ChatGPT's own website for the conversation you are viewing (see below). This holds even if you have an installation key from an earlier Unlock Pro or Restore purchase; with a key, only using Pro or visiting ExtensionPay's own pages can trigger a licence check (see Licence checks).</li>
+<li><strong>Free exports contact no server of ours or of our payment provider.</strong> Version 0.2.14 and later make no request for a free export: on every supported site, ChatGPT included, the Extension reads the conversation from the page you are viewing. In earlier versions (still current on Firefox until it is updated), the only request a free export makes is on ChatGPT, where the Extension asks ChatGPT's own website for the conversation you are viewing (see below). This holds even if you have an installation key from an earlier Unlock Pro or Restore purchase; with a key, only using Pro or visiting ExtensionPay's own pages can trigger a licence check (see Licence checks).</li>
 <li><strong>The only other network contact is ExtensionPay (extensionpay.com)</strong>, our payment provider, and only for Pro: when you use a Pro feature, unlock or restore Pro, or visit ExtensionPay's own pages (such as its checkout or account pages). Those requests carry an installation key, never your chats.</li>
 <li>We run no server that receives data from the Extension. The Extension has no analytics, telemetry, advertising or tracking, and loads no remote code.</li>
 </ul>
 <h2>What the Extension accesses</h2>
 <ul>
-<li><strong>The chat page you are viewing on a supported site</strong> (chatgpt.com, chat.openai.com, claude.ai, gemini.google.com, grok.com, perplexity.ai, www.perplexity.ai), <strong>only when you click an export button</strong>. The conversation is read and converted to a file in your browser.</li>
-<li><strong>ChatGPT (same-site request):</strong> on chatgpt.com and chat.openai.com, when you click export, the Extension asks ChatGPT's own website, using your existing logged-in session, for the conversation you are viewing (the same kind of request the ChatGPT page itself makes). This request goes only to ChatGPT (OpenAI), never to us or anyone else. The temporary session token it uses is held in memory for that one export and is never stored or sent anywhere else. If the request fails, the Extension reads the conversation from the page instead.</li>
+<li><strong>The chat page you are viewing on a supported site</strong> (chatgpt.com, chat.openai.com, claude.ai, gemini.google.com, grok.com; versions earlier than 0.2.14 also support perplexity.ai and www.perplexity.ai), <strong>only when you click an export button</strong>. The conversation is read and converted to a file in your browser.</li>
+<li><strong>ChatGPT (same-site request, versions earlier than 0.2.14 only):</strong> Version 0.2.14 and later read ChatGPT from the open page only. They send no request to ChatGPT, and they do not read your login session, cookies or tokens. Earlier versions (still current on Firefox until it is updated) do this: on chatgpt.com and chat.openai.com, when you click export, the Extension asks ChatGPT's own website, using your existing logged-in session, for the conversation you are viewing (the same kind of request the ChatGPT page itself makes). This request goes only to ChatGPT (OpenAI), never to us or anyone else. The temporary session token it uses is held in memory for that one export and is never stored or sent anywhere else. If the request fails, the Extension reads the conversation from the page instead.</li>
 <li><strong><code>activeTab</code> and <code>scripting</code>:</strong> when you open the Extension's popup on a supported chat tab that was open before the Extension was installed or updated, these let it load its own packaged exporter code into that one tab, so export works without reloading the page. They give no access to other tabs or sites.</li>
 <li><strong>"Export all open AI chats" (Pro):</strong> the Extension sends an export request to your open tabs; only tabs on the supported sites, where its exporter is running, respond and save a file. It does not read the addresses or content of other tabs.</li>
 <li><strong><code>storage</code>:</strong> see "What is stored in your browser" below.</li>
-<li><strong>No new permissions:</strong> version 0.2.13.1 adds no new permissions and no new sites.</li>
+<li><strong>No new permissions:</strong> versions 0.2.13.1 and 0.2.14 add no new permissions and no new sites.</li>
 <li><strong>Welcome page:</strong> when you install the Extension for the first time, it opens its own welcome page in a new tab, one time. An update never opens it. The page is a file inside the Extension package. It runs no script and loads nothing from the internet. It does not need the <code>tabs</code> permission, and it stores nothing.</li>
 </ul>
 <h2>Pro purchases: what ExtensionPay and Stripe receive (Pro buyers only)</h2>
@@ -68,7 +68,7 @@
 <h2>Children</h2>
 <p>The Extension is not directed to children under 13.</p>
 <h2>Not affiliated</h2>
-<p>Unabridged is an independent tool made by CCE Partners LLC. It is not affiliated with, endorsed by or sponsored by OpenAI, Anthropic, Google, xAI or Perplexity AI. Their product names and trademarks are used only to describe compatibility.</p>
+<p>Unabridged is an independent tool made by CCE Partners LLC. It is not affiliated with, endorsed by or sponsored by OpenAI, Anthropic, Google, xAI or Perplexity AI. Versions earlier than 0.2.14 support Perplexity; version 0.2.14 and later do not. Their product names and trademarks are used only to describe compatibility.</p>
 <h2>Changes</h2>
 <p>We will post updates on this page and change the effective date.</p>
 <h2>Contact</h2>
