@@ -5,8 +5,8 @@
 </head><body>
 <h1>Privacy Policy: Unabridged</h1>
 <p>Effective date: October 22, 2026</p>
-<p>Last updated: November 3, 2026</p>
-<p>Unabridged ("the Extension") is published by <strong>CCE Partners LLC</strong> ("we", "us"), 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: support@hichrisgrant.com. This policy applies to version 0.2.15 of the Extension. It covers the Google Chrome version, distributed through the Chrome Web Store (item bikcjbaffadliihjcbodbkddhlnpahhf), and the Firefox version. The Firefox version works differently in two respects. The "Firefox version" section below describes them.</p>
+<p>Last updated: November 6, 2026</p>
+<p>Unabridged ("the Extension") is published by <strong>CCE Partners LLC</strong> ("we", "us"), 2501 Chatham Rd #4369, Springfield, IL 62704, USA. Contact: support@hichrisgrant.com. This policy applies to version 0.2.16 of the Extension. It covers the Google Chrome version, distributed through the Chrome Web Store (item bikcjbaffadliihjcbodbkddhlnpahhf), and the Firefox version. The Firefox version works differently in two respects. The "Firefox version" section below describes them.</p>
 <h2>Summary</h2>
 <ul>
 <li>The Extension turns the AI chat you are viewing into a file that your browser downloads. Your conversations are processed <strong>only inside your browser</strong>. They are never sent to us, to our payment providers or to anyone else.</li>
@@ -21,12 +21,11 @@
 <li><strong><code>activeTab</code> and <code>scripting</code>:</strong> when you open the Extension's popup on a supported chat tab that was open before the Extension was installed or updated, these let it load its own packaged exporter code into that one tab, so export works without reloading the page. When the Extension is installed or updated, it also tries to load the same code into supported chat tabs that are already open, but only into tabs that the browser lets it reach. If it cannot reach a tab, Export all can show a tip to reload it. They give no access to other tabs or sites.</li>
 <li><strong>"Export all open AI chats" (Pro):</strong> the Extension sends an export request to your open tabs; only tabs on the supported sites, where its exporter is running, respond and save a file. It does not read the addresses or content of other tabs.</li>
 <li><strong><code>storage</code>:</strong> see "What is stored in your browser" below.</li>
-<li><strong>No new permissions:</strong> version 0.2.15 adds no new permissions and no new sites.</li>
+<li><strong>No new permissions:</strong> version 0.2.16 adds no new permissions and no new sites.</li>
 <li><strong>Welcome page:</strong> when you install the Extension for the first time, it opens its own welcome page in a new tab, one time. An update never opens it. The page is a file inside the Extension package. It runs no script and loads nothing from the internet. It does not need the <code>tabs</code> permission, and it stores nothing.</li>
 </ul>
-<!-- VERIFY IN RC (GTM draft note, not page text; remove before publish): Firefox 0.2.15 permissions. No Firefox 0.2.15 RC exists yet. This table and "Permission changes by version" assume that Firefox 0.2.15 adds no permission, no site and no data collection category (as Chrome 0.2.15). Compare with the Firefox 0.2.15 RC manifest before publish. -->
 <h2>Permissions at a glance</h2>
-<p>This table shows each permission and site in version 0.2.15, why the Extension needs it, and what it does not do.</p>
+<p>This table shows each permission and site in version 0.2.16, why the Extension needs it, and what it does not do.</p>
 <table>
 <thead><tr><th>Permission or site</th><th>Why the Extension needs it</th><th>What it does not do</th></tr></thead>
 <tbody>
@@ -42,7 +41,8 @@
 <p><strong>Not requested:</strong> the <code>tabs</code>, <code>history</code>, <code>cookies</code>, <code>downloads</code> and <code>webRequest</code> permissions, and access to all websites.</p>
 <h2>Permission changes by version</h2>
 <ul>
-<li><strong>0.2.15 (this version, November 3, 2026):</strong> No new permission and no new site.</li>
+<li><strong>0.2.16 (this version, November 6, 2026):</strong> No new permission and no new site.</li>
+<li><strong>0.2.15:</strong> No new permission and no new site.</li>
 <li><strong>0.2.14 (November 1, 2026, Chrome and Firefox):</strong> Removed 2 sites: perplexity.ai and www.perplexity.ai. No new permission.</li>
 <li><strong>0.2.2 to 0.2.13.1 (October 14 to October 30, 2026):</strong> Permissions: <code>storage</code>, <code>activeTab</code> and <code>scripting</code>. Sites: chatgpt.com, chat.openai.com, claude.ai, gemini.google.com, grok.com, perplexity.ai, www.perplexity.ai and extensionpay.com. On Firefox, from the first public version (0.2.6, October 19, 2026): no required data collection, and the 3 optional data collection categories for Pro.</li>
 </ul>
@@ -56,7 +56,7 @@
 <li><strong>ExtensionPay's pages:</strong> the Extension includes ExtensionPay's small script that runs only on extensionpay.com pages, so those pages can tell the Extension when a purchase is complete or your account has changed. That is what starts the repeated licence check described above.</li>
 <li><strong>Using Pro on another device or after reinstalling:</strong> click <strong>Restore purchase</strong> and log in on ExtensionPay's page with the email you paid with.</li>
 <li><strong>Never sent</strong> to ExtensionPay or Stripe: your conversations, chat titles, or the addresses of the pages you visit.</li>
-<li><strong>What we receive:</strong> as the seller, CCE Partners LLC can see the purchase record (your email, amount and date) in our ExtensionPay and Stripe accounts. We use it only for accounting, support and refunds, and keep it only as long as legally required.</li>
+<li><strong>What we receive:</strong> as the seller, CCE Partners LLC can see the purchase record (your email, amount and date) in our ExtensionPay and Stripe accounts. We use it only for accounting, support and refunds, and to send you up to three short emails from support@hichrisgrant.com about your purchase (a welcome, a check-in and a request for feedback). Reply &quot;stop&quot; to any of them and we send no more. We keep it only as long as legally required.</li>
 <li>Stripe's privacy policy: https://stripe.com/privacy. ExtensionPay describes how it handles user data in the FAQ on its website (https://extensionpay.com, "What about user privacy?"). For questions about it, contact us and we will help.</li>
 </ul>
 <h2>What is stored in your browser</h2>
